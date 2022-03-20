@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+N:/Development/Dev_Base/curl-7.82.0/lib/CMakeLists.txt
+N:/Development/Dev_Base/curl-7.82.0/lib/Makefile.inc
+N:/Development/Dev_Base/curl-7.82.0/lib/curl_config.h.cmake
+N:/Development/Dev_Base/curl-7.82.0/msvc/lib/Makefile.inc.cmake

@@ -1,0 +1,1305 @@
+The system is: Windows - 10.0.19044 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/20/2022 2:21:07 PM.
+Project "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\3.20.0\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\3.20.0\CompilerIdC\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\3.20.0\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.44
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/3.20.0/CompilerIdC/CompilerIdC.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_44ca1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CMakeCCompilerABI.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_44ca1.dir\Debug\\" /Fd"cmTC_44ca1.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c"
+  cmTC_44ca1.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_44ca1.exe
+
+
+
+Determining if the function getch exists in the ws2_32; passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_619d9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getch /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_619d9.dir\Debug\\" /Fd"cmTC_619d9.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+  cmTC_619d9.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_619d9.exe
+
+
+
+Determining if the function getch exists in the winmm;ws2_32 passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_77344.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getch /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_77344.dir\Debug\\" /Fd"cmTC_77344.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+  cmTC_77344.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_77344.exe
+
+
+
+Determining if the function cldap_open exists in the wldap32;winmm;ws2_32 passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_29780.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=cldap_open /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_29780.dir\Debug\\" /Fd"cmTC_29780.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+  cmTC_29780.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_29780.exe
+
+
+
+Determining if files ;windows.h exist passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_953ba.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_WINDOWS_H.c
+  cl /c /I"N:\Development\Dev_Base\zlib-1.2.11" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_953ba.dir\Debug\\" /Fd"cmTC_953ba.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_WINDOWS_H.c"
+  cmTC_953ba.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_953ba.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h exist passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_ce9d6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_WS2TCPIP_H.c
+  cl /c /I"N:\Development\Dev_Base\zlib-1.2.11" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ce9d6.dir\Debug\\" /Fd"cmTC_ce9d6.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_WS2TCPIP_H.c"
+  cmTC_ce9d6.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_ce9d6.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h exist passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_2434e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_WINSOCK2_H.c
+  cl /c /I"N:\Development\Dev_Base\zlib-1.2.11" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2434e.dir\Debug\\" /Fd"cmTC_2434e.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_WINSOCK2_H.c"
+  cmTC_2434e.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_2434e.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h exist passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_b659e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_WINCRYPT_H.c
+  cl /c /I"N:\Development\Dev_Base\zlib-1.2.11" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b659e.dir\Debug\\" /Fd"cmTC_b659e.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_WINCRYPT_H.c"
+  cmTC_b659e.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_b659e.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h exist passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_04ee1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_STDIO_H.c
+  cl /c /I"N:\Development\Dev_Base\zlib-1.2.11" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_04ee1.dir\Debug\\" /Fd"cmTC_04ee1.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_STDIO_H.c"
+  cmTC_04ee1.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_04ee1.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h exist passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_2fc74.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_ASSERT_H.c
+  cl /c /I"N:\Development\Dev_Base\zlib-1.2.11" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2fc74.dir\Debug\\" /Fd"cmTC_2fc74.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_ASSERT_H.c"
+  cmTC_2fc74.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_2fc74.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h exist passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_a9d1c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_ERRNO_H.c
+  cl /c /I"N:\Development\Dev_Base\zlib-1.2.11" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a9d1c.dir\Debug\\" /Fd"cmTC_a9d1c.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_ERRNO_H.c"
+  cmTC_a9d1c.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_a9d1c.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h exist passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_14305.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_LOCALE_H.c
+  cl /c /I"N:\Development\Dev_Base\zlib-1.2.11" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_14305.dir\Debug\\" /Fd"cmTC_14305.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_LOCALE_H.c"
+  cmTC_14305.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_14305.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;setjmp.h;signal.h;stdbool.h exist passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_81b8d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_STDBOOL_H.c
+  cl /c /I"N:\Development\Dev_Base\zlib-1.2.11" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_81b8d.dir\Debug\\" /Fd"cmTC_81b8d.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_STDBOOL_H.c"
+  cmTC_81b8d.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_81b8d.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;setjmp.h;signal.h;stdbool.h;stdio.h;stdlib.h;string.h;time.h;process.h;stddef.h exist passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_caa29.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_STDDEF_H.c
+  cl /c /I"N:\Development\Dev_Base\zlib-1.2.11" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_caa29.dir\Debug\\" /Fd"cmTC_caa29.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_STDDEF_H.c"
+  cmTC_caa29.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_caa29.exe
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_60ba6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SIZEOF_SIZE_T.c
+  cl /c /I"N:\Development\Dev_Base\zlib-1.2.11" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_60ba6.dir\Debug\\" /Fd"cmTC_60ba6.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c"
+  cmTC_60ba6.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_60ba6.exe
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_05044.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SIZEOF_LONG_LONG.c
+  cl /c /I"N:\Development\Dev_Base\zlib-1.2.11" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_05044.dir\Debug\\" /Fd"cmTC_05044.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c"
+  cmTC_05044.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_05044.exe
+
+
+
+Determining size of long passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_547b6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SIZEOF_LONG.c
+  cl /c /I"N:\Development\Dev_Base\zlib-1.2.11" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_547b6.dir\Debug\\" /Fd"cmTC_547b6.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c"
+  cmTC_547b6.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_547b6.exe
+
+
+
+Determining size of short passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_cf799.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SIZEOF_SHORT.c
+  cl /c /I"N:\Development\Dev_Base\zlib-1.2.11" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cf799.dir\Debug\\" /Fd"cmTC_cf799.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c"
+  cmTC_cf799.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_cf799.exe
+
+
+
+Determining size of int passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_dd10a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SIZEOF_INT.c
+  cl /c /I"N:\Development\Dev_Base\zlib-1.2.11" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dd10a.dir\Debug\\" /Fd"cmTC_dd10a.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CheckTypeSize\SIZEOF_INT.c"
+  cmTC_dd10a.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_dd10a.exe
+
+
+
+Determining size of __int64 passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_480f0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SIZEOF___INT64.c
+  cl /c /I"N:\Development\Dev_Base\zlib-1.2.11" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_480f0.dir\Debug\\" /Fd"cmTC_480f0.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CheckTypeSize\SIZEOF___INT64.c"
+  cmTC_480f0.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_480f0.exe
+
+
+
+Determining size of time_t passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_b99e5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SIZEOF_TIME_T.c
+  cl /c /I"N:\Development\Dev_Base\zlib-1.2.11" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b99e5.dir\Debug\\" /Fd"cmTC_b99e5.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CheckTypeSize\SIZEOF_TIME_T.c"
+  cmTC_b99e5.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_b99e5.exe
+
+
+
+Determining if the gethostbyname exist passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_02c8e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"N:\Development\Dev_Base\zlib-1.2.11" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_02c8e.dir\Debug\\" /Fd"cmTC_02c8e.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_02c8e.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_02c8e.exe
+
+
+File N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostbyname
+  return ((int*)(&gethostbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoll exist passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_6a928.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"N:\Development\Dev_Base\zlib-1.2.11" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6a928.dir\Debug\\" /Fd"cmTC_6a928.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_6a928.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_6a928.exe
+
+
+File N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _strtoi64 exist passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_b6c3f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"N:\Development\Dev_Base\zlib-1.2.11" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b6c3f.dir\Debug\\" /Fd"cmTC_b6c3f.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_b6c3f.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_b6c3f.exe
+
+
+File N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strtoi64
+  return ((int*)(&_strtoi64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the freeaddrinfo exist passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_b5571.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"N:\Development\Dev_Base\zlib-1.2.11" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b5571.dir\Debug\\" /Fd"cmTC_b5571.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_b5571.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_b5571.exe
+
+
+File N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef freeaddrinfo
+  return ((int*)(&freeaddrinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getprotobyname exist passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_67405.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"N:\Development\Dev_Base\zlib-1.2.11" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_67405.dir\Debug\\" /Fd"cmTC_67405.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_67405.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_67405.exe
+
+
+File N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getprotobyname
+  return ((int*)(&getprotobyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getpeername exist passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_5dfca.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"N:\Development\Dev_Base\zlib-1.2.11" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5dfca.dir\Debug\\" /Fd"cmTC_5dfca.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_5dfca.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_5dfca.exe
+
+
+File N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpeername
+  return ((int*)(&getpeername))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getsockname exist passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_af217.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"N:\Development\Dev_Base\zlib-1.2.11" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_af217.dir\Debug\\" /Fd"cmTC_af217.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_af217.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_af217.exe
+
+
+File N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getsockname
+  return ((int*)(&getsockname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setlocale exist passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_be31c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"N:\Development\Dev_Base\zlib-1.2.11" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_be31c.dir\Debug\\" /Fd"cmTC_be31c.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_be31c.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_be31c.exe
+
+
+File N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setlocale
+  return ((int*)(&setlocale))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setmode exist passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_62c71.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"N:\Development\Dev_Base\zlib-1.2.11" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_62c71.dir\Debug\\" /Fd"cmTC_62c71.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_62c71.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_62c71.exe
+
+
+File N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setmode
+  return ((int*)(&setmode))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setsockopt exist passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_f953c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"N:\Development\Dev_Base\zlib-1.2.11" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f953c.dir\Debug\\" /Fd"cmTC_f953c.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_f953c.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_f953c.exe
+
+
+File N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setsockopt
+  return ((int*)(&setsockopt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the inet_pton exist passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_72745.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"N:\Development\Dev_Base\zlib-1.2.11" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_72745.dir\Debug\\" /Fd"cmTC_72745.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_72745.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_72745.exe
+
+
+File N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_pton
+  return ((int*)(&inet_pton))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing Curl Test HAVE_IOCTLSOCKET passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_108f9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CurlTests.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_108f9.dir\Debug\\" /Fd"cmTC_108f9.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\CMake\CurlTests.c"
+N:\Development\Dev_Base\curl-7.82.0\CMake\CurlTests.c(241): warning C4700: uninitialized local variable 'socket' used [N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\cmTC_108f9.vcxproj]
+  cmTC_108f9.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_108f9.exe
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_FIONBIO passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_e7b4a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CurlTests.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET_FIONBIO /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e7b4a.dir\Debug\\" /Fd"cmTC_e7b4a.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\CMake\CurlTests.c"
+  cmTC_e7b4a.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_e7b4a.exe
+
+
+Performing Curl Test HAVE_BOOL_T passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_42148.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CurlTests.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_BOOL_T /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_42148.dir\Debug\\" /Fd"cmTC_42148.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\CMake\CurlTests.c"
+  cmTC_42148.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_42148.exe
+
+
+Performing Curl Test HAVE_VARIADIC_MACROS_C99 passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_28e2a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CurlTests.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_VARIADIC_MACROS_C99 /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_28e2a.dir\Debug\\" /Fd"cmTC_28e2a.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\CMake\CurlTests.c"
+  cmTC_28e2a.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_28e2a.exe
+
+
+Determining size of off_t passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_86030.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SIZEOF_OFF_T.c
+  cl /c /I"N:\Development\Dev_Base\zlib-1.2.11" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_86030.dir\Debug\\" /Fd"cmTC_86030.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CheckTypeSize\SIZEOF_OFF_T.c"
+  cmTC_86030.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_86030.exe
+
+
+
+Determining size of curl_off_t passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_cd430.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SIZEOF_CURL_OFF_T.c
+  cl /c /I"N:\Development\Dev_Base\curl-7.82.0\include" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cd430.dir\Debug\\" /Fd"cmTC_cd430.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CheckTypeSize\SIZEOF_CURL_OFF_T.c"
+  cmTC_cd430.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_cd430.exe
+
+
+
+Performing C SOURCE FILE Test curl_cv_recv succeeded with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_1d04f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /I"N:\Development\Dev_Base\curl-7.82.0\include" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D curl_cv_recv /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1d04f.dir\Debug\\" /Fd"N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_1d04f.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\src.c"
+  cmTC_1d04f.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_1d04f.lib
+
+
+Source file was:
+#undef inline
+#include <winsock2.h>
+#include <windows.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+int main(void) {
+    recv(0, 0, 0, 0);
+    return 0;
+}
+Performing C SOURCE FILE Test curl_cv_func_recv_test succeeded with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_f2150.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /I"N:\Development\Dev_Base\curl-7.82.0\include" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D curl_cv_func_recv_test /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f2150.dir\Debug\\" /Fd"N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_f2150.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\src.c"
+  cmTC_f2150.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_f2150.lib
+
+
+Source file was:
+
+    #undef inline
+#include <winsock2.h>
+#include <windows.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+    #ifdef WINSOCK_API_LINKAGE
+    WINSOCK_API_LINKAGE
+    #endif
+    extern int PASCAL
+    recv(SOCKET, char *, int, int);
+    int main(void) {
+      SOCKET s=0;
+      char * buf=0;
+      int len=0;
+      int flags=0;
+      int res = recv(s, buf, len, flags);
+      (void) res;
+      return 0;
+    }
+Performing C SOURCE FILE Test curl_cv_send succeeded with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_ae554.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /I"N:\Development\Dev_Base\curl-7.82.0\include" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D curl_cv_send /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ae554.dir\Debug\\" /Fd"N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_ae554.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\src.c"
+  cmTC_ae554.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_ae554.lib
+
+
+Source file was:
+#undef inline
+#include <winsock2.h>
+#include <windows.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+int main(void) {
+    send(0, 0, 0, 0);
+    return 0;
+}
+Performing C SOURCE FILE Test curl_cv_func_send_test succeeded with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_38380.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /I"N:\Development\Dev_Base\curl-7.82.0\include" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D curl_cv_func_send_test /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_38380.dir\Debug\\" /Fd"N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_38380.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\src.c"
+  cmTC_38380.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_38380.lib
+
+
+Source file was:
+
+    #undef inline
+#include <winsock2.h>
+#include <windows.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+    #ifdef WINSOCK_API_LINKAGE
+    WINSOCK_API_LINKAGE
+    #endif
+    extern int PASCAL
+    send(SOCKET, const char *, int, int);
+    int main(void) {
+      SOCKET s=0;
+      const char * buf=0;
+      int len=0;
+      int flags=0;
+      int res = send(s, buf, len, flags);
+      (void) res;
+      return 0;
+    }
+Performing C SOURCE FILE Test HAVE_STRUCT_TIMEVAL succeeded with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_e8702.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /I"N:\Development\Dev_Base\curl-7.82.0\include" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D HAVE_STRUCT_TIMEVAL /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e8702.dir\Debug\\" /Fd"N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_e8702.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\src.c"
+  cmTC_e8702.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_e8702.lib
+
+
+Source file was:
+#undef inline
+#include <winsock2.h>
+#include <windows.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+int main(void) {
+  struct timeval ts;
+  ts.tv_sec  = 0;
+  ts.tv_usec = 0;
+  (void)ts;
+  return 0;
+}
+Determining size of struct sockaddr_storage passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_3dfc8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SIZEOF_STRUCT_SOCKADDR_STORAGE.c
+  cl /c /I"N:\Development\Dev_Base\curl-7.82.0\include" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3dfc8.dir\Debug\\" /Fd"N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_3dfc8.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CheckTypeSize\SIZEOF_STRUCT_SOCKADDR_STORAGE.c"
+  cmTC_3dfc8.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_3dfc8.lib
+
+
+
+Determining if the CryptAcquireContext exist passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_59998.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"N:\Development\Dev_Base\curl-7.82.0\include" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_59998.dir\Debug\\" /Fd"cmTC_59998.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_59998.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_59998.exe
+
+
+File N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CryptAcquireContext
+  return ((int*)(&CryptAcquireContext))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file openssl/crypto.h exists passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_e57c2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /I"N:\Development\Dev_Base\openssl-3.0.2\include" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e57c2.dir\Debug\\" /Fd"cmTC_e57c2.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_e57c2.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_e57c2.exe
+
+
+
+Determining if the include file openssl/err.h exists passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_d9169.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /I"N:\Development\Dev_Base\openssl-3.0.2\include" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d9169.dir\Debug\\" /Fd"cmTC_d9169.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_d9169.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_d9169.exe
+
+
+
+Determining if the include file openssl/pem.h exists passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_6d22a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /I"N:\Development\Dev_Base\openssl-3.0.2\include" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6d22a.dir\Debug\\" /Fd"cmTC_6d22a.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_6d22a.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_6d22a.exe
+
+
+
+Determining if the include file openssl/rsa.h exists passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_4ffdc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /I"N:\Development\Dev_Base\openssl-3.0.2\include" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4ffdc.dir\Debug\\" /Fd"cmTC_4ffdc.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_4ffdc.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_4ffdc.exe
+
+
+
+Determining if the include file openssl/ssl.h exists passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_37785.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /I"N:\Development\Dev_Base\openssl-3.0.2\include" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_37785.dir\Debug\\" /Fd"cmTC_37785.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_37785.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_37785.exe
+
+
+
+Determining if the include file openssl/x509.h exists passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_8b275.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /I"N:\Development\Dev_Base\openssl-3.0.2\include" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8b275.dir\Debug\\" /Fd"cmTC_8b275.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_8b275.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_8b275.exe
+
+
+
+Determining if the include file openssl/rand.h exists passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_21a20.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /I"N:\Development\Dev_Base\openssl-3.0.2\include" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_21a20.dir\Debug\\" /Fd"cmTC_21a20.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_21a20.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_21a20.exe
+
+
+
+Determining if the ZSTD_createDStream exist passed with the following output:
+Change Dir: N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_b9261.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"N:\Development\Dev_Base\zstd-1.4.5\lib" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b9261.dir\Debug\\" /Fd"cmTC_b9261.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_b9261.vcxproj -> N:\Development\Dev_Base\curl-7.82.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_b9261.exe
+
+
+File N:/Development/Dev_Base/curl-7.82.0/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <zstd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ZSTD_createDStream
+  return ((int*)(&ZSTD_createDStream))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
